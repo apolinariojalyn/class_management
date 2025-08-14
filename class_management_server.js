@@ -36,9 +36,6 @@ app.get(`/users`,(req,res) => {
 
 
 
-
-
-
 });
 
 
@@ -47,8 +44,8 @@ app.get(`/users`, (req,res) => {
 });
 
 
-app.get(`/users`, (req,res) => {
-    res.status(`Server is up and running!`);
+app.get(`/`, (req,res) => {
+    res.send(`Server is up and running!`);
 });
 
 
